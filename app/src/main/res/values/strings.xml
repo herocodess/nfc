@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NFC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_write">WriteActivity</string>
+    <string name="title_activity_read">ReadActivity</string>
+    <string name="title_activity_read_explicit">ReadExplicitActivity</string>
+    <string name="read_activity_reset">Reset</string>
+    <string name="read_activity_title">Value of the NFC tag:</string>
+    <string name="read_activity_no_tag">NFC tag not read yet.</string>
+    <string name="main_activity_read">Read NFC tag</string>
+    <string name="main_activity_read_explicit">Read NFC tag (Explicit)</string>
+    <string name="main_activity_write">Write NFC tag</string>
+    <string name="main_activity_write_explicit">Explicit read NFC tag</string>
+    <string name="write_activity_label">NFC message:</string>
+    <string name="write_activity_write">Write</string>
+</resources>

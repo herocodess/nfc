@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteBalance">
+
+    <TextView
+        android:id="@+id/balance_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="105dp"
+        android:textSize="20sp"
+        android:hint="Balance is: "/>
+
+    <Button
+        android:id="@+id/write_balance"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Confirm Transaction"
+        android:textColor="@color/queryColot"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_marginLeft="80dp"/>
+
+</RelativeLayout>
